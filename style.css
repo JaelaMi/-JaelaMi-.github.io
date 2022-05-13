@@ -1,0 +1,298 @@
+h1{
+    color: aqua;
+    font-family:Helvetica;
+    font-style: italic;
+    font: size 50px;
+    font-weight: 50px;
+    vertical-align: bottom;
+    position: relative;bottom: -20px;
+}
+body{
+    background-color: pink;
+}
+.dress{
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    background-color: hotpink;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+.flexbox{
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+    border: 2px dashed yellow;
+    display: flex;
+    gap: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second{
+    text-align: center;
+}
+h2{
+    color: green;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 10px;
+}
+.flexbox img{
+    width: 500px;
+    height: 350px;
+    display: flexbox;
+}
+.pone{
+    color: black;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: oblique;
+}
+.ptwo{
+    color: black;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: oblique;
+}
+.third{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+section{
+    display: block;
+}
+.thirdtwo{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+h4{
+    color: black;
+    font-family: Georgia;
+    font-style: italic;
+}
+.pthree{
+    color: black;
+}
+.thirdthree{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+table{
+    color: black;
+    font-family: 'Courier New';
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 15px;
+}
+td, th{
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.nav{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pricetag{
+    background-color: greenyellow;
+}
+.blanktable{
+    background-color: red;
+}
+.per{
+    background-color: red;
+}
+.total{
+    background-color: greenyellow;
+}
+.thirdfour{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+.png{
+    width: 25px;
+    height: 25px;
+    position: relative; top: 10px;
+}
+.pngtwo{
+    width: 25px;
+    height: 25px;
+    position: relative; top: 10px;
+}
+.pngthree{
+    width: 25px;
+    height: 25px;
+    position: relative; top: 10px;
+}
+.navbar{
+    align-items: center;
+    display: inline-block;
+}
+.index{
+    position: relative;
+}
+.about{
+position: relative;
+}
+.volcanoe{
+position: relative;
+}
+.background{
+    background-color: darkgray;
+}
+.aboutpage{
+    border: 4px solid black;
+    background-color: darkmagenta;
+    text-shadow: 6px 8px 10px blue;
+    text-align: center;
+    color: white;
+}
+.headingthree{
+    color: black;
+    text-decoration: underline;
+}
+.imgabout{
+    width: 600px;
+    height: 200px;
+}
+.pabout{
+    color: black;
+}
+.flexcontain{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-align: center;
+}
+.flexcontain > div{
+    margin: auto;
+    display: flex;
+    border: 4px solid black;
+    border-width: 10px;
+    border-image-width: auto;
+}
+.flexcontain img{
+    width: 300px;
+    height: 350px;
+    display: flexbox;
+}
+.flexcontainthree img{
+    width: 300px;
+    height: 350px;
+    display: flexbox;
+}
+.imgbox{
+    width: auto;
+    height: auto;
+}
+.pflexone{
+    font-family: Cambria;
+    font-style: oblique;
+    font-size: 15px;
+    color: black;
+}
+.headingfour{
+    color: black;
+    text-decoration: underline;
+}
+.flexcontaintwo{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    text-align: center;
+}
+.flexcontaintwo > div{
+    margin: auto;
+    display: flex;
+    border: 4px solid black;
+    border-width: 10px;
+    border-image-width: auto;
+}
+.flexcontaintwo img{
+    width: 300px;
+    height: 350px;
+    display: flexbox;
+}
+.pflextwo{
+    font-family: Cambria;
+    font-style: oblique;
+    font-size: 15px;
+    color: black;
+}
+.headingfive{
+    color: black;
+    text-decoration: underline;
+}
+.flexcontainthree{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    text-align: center;
+}
+.flexcontainthree > div{
+    margin: auto;
+    display: flex;
+    border: 4px solid black;
+    border-width: 10px;
+    border-image-width: auto;
+}
+.pflexthree{
+    font-family: Cambria;
+    font-style: oblique;
+    font-size: 15px;
+    color: black;
+}
+.backgroundtwo{
+    background-color: orangered;
+}
+.volcanoepage{
+    border: 4px solid black;
+    background-color: grey;
+    text-shadow: 6px 8px 10px blue;
+    text-align: center;
+    color: yellow;
+}
+.flexcontainfour{
+    display: flex;
+    background-color: darkred;
+    flex-direction: column;
+    text-align: center;
+}
+.flexcontainfour > div{
+    margin: auto;
+    display: flex;
+    border: 4px solid black;
+    border-width: 10px;
+    border-image-width: auto;
+}
+.pflexfour{
+    font-family: Cambria;
+    font-style: oblique;
+    font-size: 15px;
+    color: black;
+}
+.flexcontainfour img{
+    width: 300px;
+    height: 300px;
+    display: flexbox;
+}
+.pvol{
+    color: black;
+    font-style:oblique;
+    font-family: Cambria;
+
+}
+.pabout{
+    color: black;
+    font-style:oblique;
+    font-family: Cambria;
+}
